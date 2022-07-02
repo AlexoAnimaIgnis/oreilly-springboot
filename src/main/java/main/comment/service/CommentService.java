@@ -3,10 +3,12 @@ package main.comment.service;
 import main.comment.model.Comment;
 import main.comment.proxies.CommentNotificationProxy;
 import main.comment.repositories.CommentRepository;
+import org.springframework.stereotype.Component;
 
 /**
  * Object responsible for implementing the publish commment use case
  */
+@Component
 public class CommentService {
     /**
      * define the dependencies of the class
