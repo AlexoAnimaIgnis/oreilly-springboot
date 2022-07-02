@@ -4,12 +4,12 @@ import main.comment.model.Comment;
 import main.comment.proxies.CommentNotificationProxy;
 import main.comment.repositories.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * Object responsible for implementing the publish commment use case
  */
-@Component
+@Service
 public class CommentService {
     /**
      * define the dependencies of the class
